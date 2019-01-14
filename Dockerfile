@@ -26,7 +26,6 @@ ENV ORACLE_SID=XE
 ENV DEFAULT_SYS_PASS oracle
 
 EXPOSE 1521
-EXPOSE 8080
 VOLUME ["/u01/app/oracle"]
 
 ENV processes 500
